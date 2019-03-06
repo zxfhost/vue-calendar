@@ -136,9 +136,9 @@ wh_content_item_tag {
   <section class="wh_container">
     <div class="wh_content_all">
       <div class="wh_top_changge">
-        <li @click="PreMonth(myDate,false)">
+        <!-- <li @click="PreMonth(myDate,false)">
           <div class="wh_jiantou1"></div>
-        </li>
+        </li> -->
         <li class="wh_content_li">{{dateTop}}</li>
         <li @click="NextMonth(myDate,false)">
           <div class="wh_jiantou2"></div>
